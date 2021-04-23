@@ -2,6 +2,7 @@ const Engine = Matter.Engine;
 const World = Matter.World;
 const Bodies = Matter.Bodies;
 var thunder, thunder1,thunder2,thunder3,thunder4;
+var walking_1,walking_2,walking_3,walking_4,walking_5,walking_6,walking_7,walking_8;
 
 var engine, world;
 var drops = [];
@@ -16,6 +17,14 @@ function preload(){
     thunder2 = loadImage("2.png");
     thunder3 = loadImage("3.png");
     thunder4 = loadImage("4.png");
+    walking_1 = loadImage("walking_1.png);
+    walking_2 = loadImage("walking_2.png);
+    walking_3 = loadImage("walking_3.png);
+    walking_4 = loadImage("walking_4.png);
+    walking_5 = loadImage("walking_5.png);
+    walking_6 = loadImage("walking_6.png);
+    walking_7 = loadImage("walking_7.png);
+    walking_8 = loadImage("walking_8.png);
 }
 
 function setup(){
